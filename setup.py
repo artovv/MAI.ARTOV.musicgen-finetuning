@@ -8,3 +8,5 @@ setup(
     package_data={
         "model_finetuning": ["weights/*.pt"],
     },
+    zip_safe=False,
+)
