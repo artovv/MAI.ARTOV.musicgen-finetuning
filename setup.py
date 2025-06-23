@@ -1,8 +1,8 @@
 # setup.py
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
-    name="MAI.ARTOV.musicgen-finetuning",
+    name="musicgen-finetuning",
     version="0.1",
-    packages=setuptools.find_packages(),
+    packages=find_packages(),
 )
