@@ -2,7 +2,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="muodel_finetuning",
+    name="model_finetuning",
     version="0.1",
     packages=find_packages(),
 )
